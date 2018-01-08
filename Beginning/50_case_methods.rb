@@ -9,6 +9,7 @@ puts
 
 # Numbers or other characters are not changed by .capitalize method:
 #
+#
 puts "hello12".capitalize # => Hello
 puts "heLLo!@".capitalize # => Hello
 puts "Hello  56".capitalize # => Hello
