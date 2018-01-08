@@ -9,7 +9,8 @@ puts
 
 # Numbers or other characters are not changed by .capitalize method:
 #
-#
+# Test commit for GitHub
+
 puts "hello12".capitalize # => Hello
 puts "heLLo!@".capitalize # => Hello
 puts "Hello  56".capitalize # => Hello
