@@ -13,5 +13,5 @@ end
 introduce_myself
 # or
 introduce_myself() # -> best practice is to add parenthesis
-# when parameters are used
+# only when parameters are used
 
