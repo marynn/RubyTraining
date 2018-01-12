@@ -1,4 +1,3 @@
-
 # Transforming Numbers_ex1.rb to use methods:
 
 puts "What do you want the first number to be?"

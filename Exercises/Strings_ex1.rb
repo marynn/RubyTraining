@@ -1,4 +1,3 @@
-
 puts "Welcome to the jungle, we have ___ and ___"
 
 puts "What is your first word?"

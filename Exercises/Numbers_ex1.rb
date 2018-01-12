@@ -1,4 +1,3 @@
-
 # Mathematical operations with numbers entered by the user
 
 puts "What do you want the first number to be?"
