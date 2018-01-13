@@ -1,9 +1,9 @@
 # Mathematical operations with numbers entered by the user
 
-puts "What do you want the first number to be?"
+puts 'What do you want the first number to be?'
 first_number = gets.chomp
 
-puts "What do you want the second number to be?"
+puts 'What do you want the second number to be?'
 second_number = gets.chomp
 
 # As gets.chomp returns a String, it needs to be converted to a float number,

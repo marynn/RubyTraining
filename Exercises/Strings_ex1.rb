@@ -1,10 +1,10 @@
-puts "Welcome to the jungle, we have ___ and ___"
+puts 'Welcome to the jungle, we have ___ and ___'
 
-puts "What is your first word?"
+puts 'What is your first word?'
 
 first_word = gets.chomp
 
-puts "What is your second word?"
+puts 'What is your second word?'
 
 second_word = gets.chomp
 
