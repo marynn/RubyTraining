@@ -1,4 +1,4 @@
-# Firgers game using random generated numbers and "if" statement
+# Fingers game using random generated numbers and "if" statement
 
 computer_fingers = rand(6)
 
