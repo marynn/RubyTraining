@@ -4,7 +4,7 @@ puts 'Enter your exam score'
 
 score = gets.chomp
 
-if score.to_i < 0 || score.to_i >= 100
+if score.to_i < 0 || score.to_i > 100
   puts "There is no grade for score #{score}"
 end
 
