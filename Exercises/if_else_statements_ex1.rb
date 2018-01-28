@@ -47,7 +47,7 @@ if prompt.to_i >= 1 && prompt.to_i <= 5
     puts "You have chosen to subtract #{second_number} from #{first_number}"
     puts "Second number subtracted from the first number is: #{subtract(first_number, second_number)}"
 
-  elsif prompt.to_i == 5
+  else
     puts "You have chosen a calculate a modulo of #{second_number} from #{first_number}"
     puts "First number modulo the second number is: #{modulo(first_number, second_number)}"
   end
