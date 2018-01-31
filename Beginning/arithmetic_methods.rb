@@ -24,4 +24,3 @@ puts
 p 10 % 3
 p 10.%3 # same as 10 % 3
 p 10.modulo(3) # same as 10 % 3
-
