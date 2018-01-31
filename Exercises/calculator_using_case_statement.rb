@@ -25,10 +25,8 @@ end
 puts "Welcome to the calculator, what would you like to do?\n1)multiply, 2)divide, 3)add, 4)subtract, 5)modulo"
 prompt = gets.chomp
 
-# while prompt.to_i
 if prompt.to_i < 1 || prompt.to_i > 5
   puts 'Wrong number'
-  # break
 
 else
   puts 'What do you want the first number to be?'
@@ -53,7 +51,4 @@ else
       puts "You have chosen to calculate a modulo of #{second_number} from #{first_number}"
       puts "First number modulo the second number is: #{modulo(first_number, second_number)}"
   end
-  # break
 end
-# end
-
