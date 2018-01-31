@@ -15,6 +15,8 @@ puts "hello12".capitalize # => Hello
 puts "heLLo!@".capitalize # => Hello
 puts "Hello  56".capitalize # => Hello
 
+puts  
+
 puts "hello world".capitalize # => Hello world =>
 # (only the first character of the first world is capitalized)
 
