@@ -7,13 +7,14 @@
 # message2 = "weeeeeeeeeeeeeeeweeeefedeeeeeeeeeeeeeeeelcomemeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeessssssssssssssssaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaggggggggggggggggggggggggggggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeettttttttttttttttttttttttttttttttttttttttttttttttttttttooooooooeeeeelcomemeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeessssssssssssssssaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaggggggggggggggggggggggggggggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeettttttttttttttttttttttttttttttttttttttttttttttttttttttoooooooo"
 # puts message2.length
 
+# Doesn't work
 def computer_fingers
   rand(6)
 end
 
-computer_fingers1 = computer_fingers
+# computer_fingers1 = computer_fingers
 puts "How many fingers am I holding out?"
-user_guess = gets.chomp.to_i
+user_guess = gets.chomp
 
-puts "Computer had #{computer_fingers1} held out."
-puts "You guessed right!" if  computer_fingers1 == user_guess
+puts "Computer had #{computer_fingers} held out."
+puts "You guessed right!" if user_guess.to_i == computer_fingers
