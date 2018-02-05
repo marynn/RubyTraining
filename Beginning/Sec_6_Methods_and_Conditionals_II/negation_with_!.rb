@@ -19,5 +19,3 @@ p !!3.14 # => true
 
 p !!false # => false
 p !!nil # => false
-
-
