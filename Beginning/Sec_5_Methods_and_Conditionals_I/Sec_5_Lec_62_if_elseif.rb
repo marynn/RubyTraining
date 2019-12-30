@@ -1,4 +1,5 @@
 
+=begin
 color = "Green"
 
 if color == "Red"
@@ -24,5 +25,16 @@ elsif number < 50
 elsif number < 75
   puts "That's a big number"
 
+end
+=end
+
+number = 100
+
+if number > 100
+  puts "This is first if"
+elsif number < 50
+  puts "This is second if"
+elsif number < 20
+  puts "This is third if"
 end
 
